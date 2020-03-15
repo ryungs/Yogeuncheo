@@ -83,6 +83,8 @@
 
 ## 4. 주요 Component
 
+1. 디렉토리 구조
+
 ```
 backend
 ├── api
