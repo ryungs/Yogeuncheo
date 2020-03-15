@@ -2,7 +2,7 @@
 
 ## 1. Project 소개
 
-![28조](C:/Users/DoGeun/Desktop/project/bigdata-sub2/assets/28%EC%A1%B0.gif)
+<video src="../../시연영상(최종).mp4"></video>
 
 - 본 프로젝트는 4인 프로젝트로 다양한 기준으로 세권 분석을 통한 동네 추천 시스템을 구현한 웹 페이지 입니다.
 - 클러스러링 알고리즘(Kmeans, Hierarchical, EM)과 sparse matrix를 사용하여 데이터를 빠르게 전처리 하여 사용자가 편리하게 동네 검색을 할 수 있게 구현했습니다.
@@ -83,7 +83,7 @@
 
 ## 4. 주요 Component
 
-1. 디렉토리 구조
+### (1) 디렉토리 구조
 
 ```
 backend
@@ -143,6 +143,8 @@ frontend
 
 
 
+### (2) Component
+
 | 단계 |       Component       |                         description                          |
 | :--: | :-------------------: | :----------------------------------------------------------: |
 |  00  |        App.vue        |                     Vue 최상단 인스턴스                      |
@@ -160,26 +162,26 @@ frontend
 
 #### 1) homepage('/')
 
+![1](assets/1.png)
+
 - 사용자 진화적인 ui를 통해 쉽고 간편하게 동네 검색을 할 수 있게 제작했습니다. 
 - 동네를 입력하면 동네의 편의지수 점수, 범죄율, 물가 정보가 Modal Form으로 표시됩니다.
 - 트위터 크롤링 데이터를 이용해 가장 많이 언급된 동네를 추천합니다.
 - 카드를 클릭하면 네이버 검색 페이지로 이동합니다.
 
-![홈](C:/Users/DoGeun/Desktop/project/bigdata-sub2/assets/%ED%99%88.PNG)
-
 
 
 #### 2) homepage에서 search 버튼 -> 해당 동네의 편의지수, 치안, 물가 정보 등 생성
 
+![2](assets/2.png)
+
 - 편의지수, 숲세권, 교육지수, 물가지수, 범죄지수 등의 정보를 데이터화하여 제공합니다.
 - 자세히 보러 가기 클릭시 해당 동네의 상세한 정보로 이동합니다.
-
-![22](C:/Users/DoGeun/Desktop/project/bigdata-sub2/assets/22.PNG)
 
 
 
 #### 3) 상세한 동네 정보와 유사한 동네 추천 시스템
 
-- 해당 페이지는 Scikit-learn 빅데이터 알고리즘을 이용해 사용자가 검색한 동네와 유사한 동네를 추천하는 시스템을 제공합니다. 
+![3](assets/3.png)
 
-![33](C:/Users/DoGeun/Desktop/project/bigdata-sub2/assets/33.PNG)
+- 해당 페이지는 Scikit-learn 빅데이터 알고리즘을 이용해 사용자가 검색한 동네와 유사한 동네를 추천하는 시스템을 제공합니다. 
